@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap');
+
+#geology{
+    position: absolute;
+    top: 150px;
+    width: 100px;
+}
+
+.background-stars {
+ background-image: url(/public/assets/background-stars.svg);
+}
+
+
+@media(min-width:768px) {
+    #geology{
+        width: 130px;
+        top: 250px;
+    }
+    #highlight-mobile{
+        display: none;
+    }
+}
+
+@media(min-width:1280px) {
+    #geology{
+        width: 160px;
+        left: 170px;
+        top: 355px;
+    }
+}
+
+
+
