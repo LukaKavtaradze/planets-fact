@@ -38,7 +38,7 @@ interface Orbits {
 
 const orbits: Orbits[] = [
   {
-    name: "Mercury",
+    name: "mercury",
     color: "#def4fc",
   },
   {
@@ -100,7 +100,6 @@ function Mercury() {
 
   const color = filteredPlanets.map((planet) => planet.detailColor);
 
-  // console.log(color[0]);
   console.log(name);
 
   const [number, SetNumber] = useState<Number>(1);
