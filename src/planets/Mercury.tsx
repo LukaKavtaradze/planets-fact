@@ -123,7 +123,11 @@ function Mercury() {
             <ul className="md:flex md:flex-row hidden md:justify-between relative  md:w-full md:items-center md:gap-[20px] xl:gap-[33px]  xl:justify-center xl:w-auto text-[#fff]  font-bold mr-[40px] ml-[40px]">
               <div
                 style={{ background: color[0] }}
-                className={`w-[64px] hidden xl:flex bottom-[40px] left-[-7px] absolute h-[4px] ${
+                className={`w-[64px] hidden xl:flex bottom-[40px] left-[-7px] absolute h-[4px]
+                ${
+                  name === "mercury" ? "left-[-7px]" : ""
+                }
+                ${
                   name === "venus" ? "left-[70px]" : ""
                 } ${name === "earth" ? "left-[140px]" : ""} ${
                   name === "mars" ? "left-[205px]" : ""
