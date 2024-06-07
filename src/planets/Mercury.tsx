@@ -88,6 +88,7 @@ function Mercury() {
   console.log(params);
 
   const [name, SetName] = useState<string>("mercury");
+  console.log(name)
   const [isOpened, setIsOpened] = useState<boolean>(false);
 
   const [planetsData, SetPlanetsData] = useState<Post[]>([]);
