@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Mercury from "./planets/Mercury";
 import Navigate from "./planets/Navigate";
 
+
 // import Earth from "../public/planets/Earth";
 // import Mars from "../public/planets/Mars";
 // import Jupiter from "../public/planets/Jupiter";

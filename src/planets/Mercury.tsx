@@ -88,14 +88,12 @@ function Mercury() {
   console.log(params);
 
   const [name, SetName] = useState<string>("mercury");
-  console.log(name)
+  console.log(name);
   const [isOpened, setIsOpened] = useState<boolean>(false);
 
   const [planetsData, SetPlanetsData] = useState<Post[]>([]);
 
-  const filteredPlanets = planetsData.filter(
-    (planet) => planet.name === params.planet
-  );
+  const filteredPlanets = planetsData.filter((planet) => planet.name === params.planet);
 
   // console.log(filteredPlanets);
 
@@ -130,7 +128,7 @@ function Mercury() {
                   params.planet === "jupiter" ? "left-[275px]" : ""
                 } ${params.planet === "saturn" ? "left-[355px]" : ""}
                ${params.planet === "uranus" ? "left-[430px]" : ""} ${
-                params.planet === "neptune" ? "left-[510px]" : ""
+                  params.planet === "neptune" ? "left-[510px]" : ""
                 }
 
                 `}
